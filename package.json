@@ -7,7 +7,8 @@
   "types": "./lib/esm/index.d.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "tsc -w",
+    "ts-dev": "tsc -w",
+    "react-dev": "cd example && npm start",
     "build": "npm run build:esm && npm run build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs"
