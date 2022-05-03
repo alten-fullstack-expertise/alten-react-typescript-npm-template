@@ -5,7 +5,7 @@ interface IDemoProps {
 }
 
 const Demo: React.FunctionComponent<IDemoProps> = (props) => (
-  <div>Hey {props.name}, this is the Demo component TEST 6666.</div>
+  <div>Hey {props.name}, this is the Demo component.</div>
 );
 
 export default Demo;
